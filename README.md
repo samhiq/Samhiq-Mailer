@@ -17,5 +17,5 @@ cd Samhiq-Mailer
 python samhiqmail.py
 ```
 
-<strong>SAMHIQ</strong>
+<strong>SAMHIQ</strong><br>
 <strong>THANKS</strong>
