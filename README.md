@@ -1,6 +1,6 @@
 # Samhiq-Mailer
   This tool is used for sending email using smtp &amp; gmail  
-### COMMANDS TO USE
+### COMMANDS TO USE SAMHIQ MAILER
 
 To use the samhiq mailer type the following commands in terminal:
 ```shell script
