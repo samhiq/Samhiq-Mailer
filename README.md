@@ -2,10 +2,11 @@
   This tool is used for sending email using smtp &amp; gmail  
 ### REQUIREMENTS 
 
-'''shell script
+```shell script
 pkg install git -y 
 pkg install python -y 
-'''
+
+```
 
 ### COMMANDS TO USE SAMHIQ MAILER
 
@@ -16,3 +17,6 @@ cd Samhiq-Mailer
 python samhiqmail.py
 ```
 <strong>Thanks</strong>
+
+pkg install git -y 
+pkg install python -y 
