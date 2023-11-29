@@ -1,5 +1,14 @@
 # Samhiq-Mailer
   This tool is used for sending email using smtp &amp; gmail  
+### REQUIREd MODULES
+
+```shell script
+smtplib
+email
+tkinter
+ 
+
+```
 ### REQUIREMENTS 
 
 ```shell script
