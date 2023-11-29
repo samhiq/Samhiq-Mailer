@@ -16,7 +16,6 @@ git clone https://github.com/samhiq/Samhiq-Mailer.git
 cd Samhiq-Mailer
 python samhiqmail.py
 ```
-<strong>Thanks</strong>
 
-pkg install git -y 
-pkg install python -y 
+<strong>SAMHIQ</strong>
+<strong>THANKS</strong>
