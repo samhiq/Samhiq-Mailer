@@ -38,6 +38,6 @@ python samhiqmail.py
 
 **Author: Samhiq**
 
-🙏 **Thank you for choosing Samhiq-Mailer!**
+ **Thanks**
 
 Feel free to reach out if you have any questions or need assistance. Happy emailing! 📧✨
