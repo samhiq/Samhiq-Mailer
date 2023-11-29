@@ -4,10 +4,7 @@
 
 ```shell script
 smtplib
-email
 tkinter
- 
-
 ```
 ### REQUIREMENTS 
 
