@@ -5,8 +5,8 @@ import tkinter as tk
 from tkinter import messagebox
 
 def send_email():
-    sender_email = "sameermedical.pvt.ltd@gmail.com"     #Samhiq mailer username & id
-    sender_password = "glzy meqh toqk hmeh"  # Samhiq mailer configurtaion
+    sender_email = ""     #SAMHIQ MAILER USERNAME AND EMAIL , USE SENDER EMAIL OR YOUR EMAIL ID
+    sender_password = ""  # SAMHIQ MAILER CONFIGURATION, USE GMAIL APP PASSWORD
 
     recipient_email = recipient_entry.get()
     body = message_entry.get()
@@ -29,7 +29,7 @@ def send_email():
 # GUI setup
 root = tk.Tk()
 root.title("Samhiq Mailer")
-root.geometry("400x300")  # Set the initial size of the window for samhiq mailer
+root.geometry("400x300")  # SET THE INITIAL SIZE OF THE WINDOW FOR SAMHIQ MAILER
 
 title_label = tk.Label(root, text="Samhiq Mailer", font=("Arial", 18, "bold"), pady=10)
 title_label.pack()
