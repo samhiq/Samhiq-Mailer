@@ -1,27 +1,37 @@
+```markdown
 # Samhiq-Mailer
-  THIS TOOL IS USED FOR SENDING EMAIL USING SMTP &amp; GMAIL
-### REQUIRED MODULES
 
-```shell script
+**Samhiq-Mailer** is a powerful tool designed for sending emails using SMTP and Gmail. This tool is built with Python and utilizes the `smtplib` and `tkinter` modules to provide a seamless email-sending experience.
+
+## Required Modules
+
+```bash
 smtplib
 tkinter
 ```
-### REQUIREMENTS 
 
-```shell script
+## Requirements
+
+Ensure you have the necessary prerequisites installed before using Samhiq-Mailer.
+
+```bash
 pkg install git -y 
 pkg install python -y 
-
 ```
 
-### COMMANDS TO USE SAMHIQ MAILER
+## How to Use Samhiq-Mailer
 
-To use the samhiq mailer type the following commands in terminal:
-```shell script
+Follow these simple steps to use Samhiq-Mailer:
+
+```bash
 git clone https://github.com/samhiq/Samhiq-Mailer.git
 cd Samhiq-Mailer
 python samhiqmail.py
 ```
 
-<strong>SAMHIQ</strong><br>
-<strong>THANKS</strong>
+**Author: Samhiq**
+
+**Thank you for choosing Samhiq-Mailer!**
+
+Feel free to reach out if you have any questions or need assistance. Happy emailing!
+```
