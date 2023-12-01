@@ -46,7 +46,7 @@ To use Samhiq-Mailer with Gmail's SMTP for email sending, you need to create an 
    - Specify a custom name for the application (e.g., "Samhiq-Mailer") and click "Generate."
 
 4. **Copy App Password:**
-   - Google will generate a unique 16-digit app password.
+   - Google will generate a unique app password.
    - Copy this generated app password; you will use it to authenticate Samhiq-Mailer with Gmail.
 
 5. **Use App Password in Samhiq-Mailer:**
