@@ -1,12 +1,14 @@
-# 📧 Samhiq-Mailer 🚀
+# 📧 **Samhiq-Mailer** 🚀
 
-**Samhiq-Mailer** is an exceptional Python tool designed for effortless email sending via SMTP and Gmail. It takes user experience to the next level with its intuitive Tkinter-based graphical interface.
+**Sending Emails Made Simple and Stylish!**
 
-## 🚀 Features
+**Welcome to Samhiq-Mailer**, a Python tool designed for effortless email sending via SMTP and Gmail. It combines a user-friendly Tkinter-based interface with robust features to make your email experience smooth and efficient.
 
-- **User-Friendly Interface:** Enjoy the convenience of an easy-to-use graphical interface built with Tkinter.
-- **Gmail and SMTP Integration:** Seamlessly connect to Gmail and SMTP for smooth email sending.
-- **Lightweight and Efficient:** A lightweight and efficient tool tailored for quick and efficient email dispatch.
+## 🌟 Features
+
+- **User-Friendly Interface:** Enjoy the simplicity of a Tkinter-based graphical interface.
+- **Gmail and SMTP Integration:** Seamlessly connect to Gmail and SMTP for efficient email dispatch.
+- **Lightweight and Efficient:** A quick and efficient tool tailored for smooth email sending.
 
 ## 📋 Required Modules
 
@@ -19,7 +21,7 @@ tkinter
 
 ## ⚙️ Requirements
 
-Ensure you meet the prerequisites before utilizing Samhiq-Mailer:
+Ensure you meet the prerequisites before using Samhiq-Mailer:
 
 ```bash
 pkg install git -y 
@@ -28,31 +30,59 @@ pkg install python -y
 
 ## 🔒 Setting Up App Password for SMTP Access
 
-To use Samhiq-Mailer with Gmail's SMTP for email sending, you need to create an "App Password." Follow these steps to generate an App Password:
+Supercharge Samhiq-Mailer with Gmail's SMTP by creating an App Password:
 
 1. **Enable 2-Step Verification:**
-   - Go to your [Google Account Security](https://myaccount.google.com/security-checkup).
+   - Visit [Google Account Security](https://myaccount.google.com/security-checkup).
    - Enable 2-Step Verification if not already enabled.
 
 2. **Access App Passwords:**
-   - Under the "Security" section, find and click on "App passwords" or a similar option.
+   - Under "Security," click on "App passwords" or a similar option.
 
 3. **Generate App Password:**
-   - In the "Select app" dropdown, choose "Other (Custom name)."
-   - Specify a custom name for the application (e.g., "Samhiq-Mailer") and click "Generate."
+   - In "Select app," choose "Other (Custom name)."
+   - Specify a custom name (e.g., "Samhiq-Mailer") and click "Generate."
 
 4. **Copy App Password:**
-   - Google will generate a unique app password.
-   - Copy this generated app password; you will use it to authenticate Samhiq-Mailer with Gmail.
+   - Google will generate a unique 16-digit app password.
+   - Copy this password; you'll use it to authenticate Samhiq-Mailer with Gmail.
 
 5. **Use App Password in Samhiq-Mailer:**
-   - When prompted for your Gmail password within Samhiq-Mailer, use the app password generated in the previous step.
-   - This app password ensures secure access to your Gmail account via SMTP without revealing your main account password.
+   - When prompted for your Gmail password, use the app password generated earlier.
+   - This app password ensures secure access via SMTP without revealing your main password.
 
-By following these steps, you enhance the security of your Gmail account while allowing Samhiq-Mailer to use SMTP for efficient email sending. If you encounter any issues or have questions, feel free to reach out for assistance. Happy emailing! 📧✨
+## 🌐 SMTP Configuration
+
+Configure Samhiq-Mailer to use Gmail's SMTP for sending emails:
+
+1. **SMTP Host Configuration** 🌐
+   - Open `samhiqmail.py` in your text editor.
+   - Find the SMTP host configuration section and set the SMTP host to `"smtp.gmail.com"`.
+
+```python
+# SMTP Configuration
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587  # Gmail's SMTP port
+```
+
+2. **App Password Integration** 🔑
+   - In the same `samhiqmail.py`, locate the section where the password is prompted.
+   - Replace the placeholder with the App Password generated earlier.
+
+```python
+# Email Account Information
+EMAIL_ADDRESS = "your.email@gmail.com"  # Your Gmail email address
+EMAIL_PASSWORD = "your_generated_app_password"  # App Password for Samhiq-Mailer
+```
+
+3. **Enjoy Sending Emails!** 🚀
+   - Save your changes and run `python samhiqmail.py`.
+   - Experience the magic of Samhiq-Mailer sending emails via Gmail's secure SMTP.
+
+Now you're all set to elevate your email experience with Samhiq-Mailer. For any questions or assistance, feel free to reach out. Happy emailing! 📧✨
 
 **Author: Samhiq**
 
-**Thanks**
+**Thanks for Using Samhiq-Mailer!**
 
-Feel free to reach out if you have any questions or need assistance. Happy emailing! 📧✨
+For inquiries or assistance, don't hesitate to reach out. Happy emailing! 🚀📧✨
