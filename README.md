@@ -1,7 +1,3 @@
-Certainly! Below is an extended README for your Samhiq-Mailer project:
-
----
-
 # 📧 Samhiq-Mailer 🚀
 
 **Samhiq-Mailer** is an exceptional Python tool designed for effortless email sending via SMTP and Gmail. It takes user experience to the next level with its intuitive Tkinter-based graphical interface.
