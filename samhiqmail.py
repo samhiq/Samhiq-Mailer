@@ -14,7 +14,7 @@ def send_email():
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = recipient_email
-    message["Subject"] = "Sameer Medical Pvt Ltd Company"
+    message["Subject"] = "Samhiq Pvt Ltd"
     message.attach(MIMEText(body, "plain"))
 
     try:
