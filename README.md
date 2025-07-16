@@ -1,4 +1,4 @@
-# 📧 **Samhiq-Mailer** 🚀
+# 📧 **Samhiq-Mailer-Basic-Version** 🚀
 # Basic Version
 ---
 **Sending Emails Made Simple and Stylish!**
